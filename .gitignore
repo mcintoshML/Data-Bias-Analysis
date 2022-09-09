@@ -1,0 +1,14 @@
+*.pyc
+__pycache__/*
+analyze_results/auc_graphs/*
+analyze_results/auc_graphs/__pycache__/*
+data_prep/__pycache__/*
+dataloaders/__pycache__/*
+engine/__pycache__/*
+example_code/__pycache__/*
+networks/__pycache__/*
+
+visualize_dl/*
+slurm_logs/*
+example_code/visualize*
+example_code/*/*.png
