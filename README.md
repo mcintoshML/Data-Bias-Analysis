@@ -1,12 +1,11 @@
-# Bias Analysis 
-## Data Sampling Biases and Shortcut learning in Medical AI: Estimating Performance on Unseen Datasets and New Standards for Model Evaluation and Dataset Publication
+## Shortcut Learning in Medical AI Hinders Generalization: Method for Estimating AI Model Generalization without External Data
 
-The manuscript for this work is presently under review. If you have questions regarding the research in the meantime please find us at https://mcintoshml.github.io/ 
+The manuscript for this work is presently under review. If you have questions regarding the research in the meantime please find us at https://mcintoshml.github.io/
 
-### Overview 
+### Overview
 ![Overview Diagram](docs/Diag.png)
 
-### Quick Start 
+### Quick Start
 * This codebase runs using `conda 4.10.3`,`Python 3.8.11`, `PyTorch 1.10.2`, `Torchvision 0.11.3`
 * See environment details in `environment.yml`
 ```bash
@@ -18,7 +17,7 @@ conda activate pytorch_venv
 
 ### Adapting the code
 * To adapt and use for custom datasets, the example setup provided in `example_code/`
-* All global variables can be changed from `constants.py` and the hyperparameters can be changed from within `engine/arg_handler.py` or via command Line. 
+* All global variables can be changed from `constants.py` and the hyperparameters can be changed from within `engine/arg_handler.py` or via command Line.
 
 ### Randomization as PyTorch Transform
 ```python
