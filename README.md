@@ -40,10 +40,10 @@ conda activate pytorch_venv
 
 4. **Get Estimated Accuracy**
    - Calculate and report your estimated accuracy using the following equation:
-     \[
-     P_{\text{Est}} \leftarrow P_{\text{Source}} - P_{\text{DABIS}} + \bar{O}
-     \]
-   - Here \(\bar{O}\) is 0.5 if you are estimating AUROC.
+     ```
+     P_Est ← P_Source - P_DABIS + O
+     ```
+     Here, `O` is 0.5 if you are estimating AUROC.
 
 
 5. **Compare to External Dataset (if available)**
